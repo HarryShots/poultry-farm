@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <h1>Home Oh!</h1>
+    <h1 className="text-3xl font-bold underline">Home Oh!</h1>
   )
 }
 
