@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Confirmed = () => {
-  return (
-    <div>Confirmed</div>
-  )
-}
+  return <div>Confirmed</div>;
+};
 
-export default Confirmed
+export default Confirmed;
