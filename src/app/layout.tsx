@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 
 import './globals.css'
 import React from "react";
+import {geist, passionOne} from "@/lib/fonts";
 
 
 export const metadata:Metadata = {
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${passionOne.variable} ${geist.variable} antialiased`}>{children}</body>
     </html>
   )
 }
